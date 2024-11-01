@@ -1,0 +1,576 @@
+body {
+    background: #f1f1f1 !important
+}
+
+.iq-heading {
+    margin-bottom: 0;
+}
+
+.wp-feedback-roadmap-tabs ul,
+.wp-roadmap-btn-hover h3 {
+    margin-bottom: 0
+}
+
+.wp-feedback-roadmap-tabs ul li {
+    display: inline-block;
+    margin-bottom: 0
+}
+
+.wp-feedback-roadmap-tabs ul li a {
+    padding: 10px 23px;
+    color: #252525;
+    font-size: 15px;
+    font-weight: 600;
+    background: #f8fafb;
+    text-decoration: none;
+    margin-right: 5px;
+    display: block;
+    border-radius: 4px;
+}
+
+.wp-feedback-roadmap-tabs ul li.tab-active a {
+    color: #fff;
+    border-color: #5945b6;
+    background-color: #5945b6;
+}
+
+.wp-feedback-roadmap-tab {
+    background: #fff;
+    border-top: none;
+    position: relative;
+}
+
+.iq-card {
+    box-shadow: none;
+    padding: 0;
+
+}
+
+.iq-card .card-header{
+    border-radius: 4px;
+    background-color: #5945b61c;
+}
+
+#statusFormCollapse {
+    border-radius: 5px;
+}
+
+.gu-mirror,
+.gu-transit {
+    background-color: #fff !important;
+    list-style-type: none
+}
+
+.wp-feedback-roadmap-tab-detail {
+    animation: fadeIn ease 0.7s;
+    -webkit-animation: fadeIn ease 0.7s;
+    -moz-animation: fadeIn ease 0.7s;
+    -o-animation: fadeIn ease 0.7s;
+    -ms-animation: fadeIn ease 0.7s;
+}
+
+.wp-feedback-roadmap-tab-detail.active {
+    animation: fadeIn ease 0.7s;
+    -webkit-animation: fadeIn ease 0.7s;
+    -moz-animation: fadeIn ease 0.7s;
+    -o-animation: fadeIn ease 0.7s;
+    -ms-animation: fadeIn ease 0.7s;
+} 
+
+.wp-feedback-roadmap-tab-detail,
+.wp-roadmap_page_wp_roadmap_feedback_dashboard #wpfooter {
+    display: none;
+}
+
+.wp-feedback-roadmap-tab-detail h1 {
+    margin-left: 10px
+}
+
+.wp-feedback-roadmap-tab-detail:first-child {
+    display: block;
+}
+
+.wp-feedback-roadmap-tab h3 {
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.wp-feedback-roadmap-tab .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+.wp-feedback-roadmap-setting-save {
+    margin-left: 10px;
+    -webkit-transition: box-shadow .3s ease-in-out, color .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out, color .3s ease-in-out
+}
+
+.wp-feedback-roadmap-setting-save:hover {
+    background-color: #444;
+    color: #fff
+}
+
+.modal-footer.wp-feedback-footer {
+    display: flex !important
+}
+
+.float-right,
+.wp-feedback-button {
+    float: right
+}
+
+.m-box-shadow,
+.m-box-shadow:hover {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .16), 0 1px 2px 0 rgba(0, 0, 0, .23)
+}
+
+.px-3 {
+    padding-left: 1rem !important
+}
+
+.rounded {
+    border-radius: .375rem !important
+}
+
+.mt-10 {
+    margin-top: 10px
+}
+
+.wp-roadmap-status-btn a,
+.wp-roadmap-status-btn button {
+    border: none;
+    background: 0 0 !important;
+    padding: 0 !important;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    margin-left: 5px
+}
+
+.wp-feedback-roadmap .action-btn,
+.wp-feedback-roadmap .gu-transit .action-btn,
+.wp-roadmap-status-btn {
+    opacity: 0;
+    visibility: hidden
+}
+
+.wp-feedback-roadmap .box-info:hover .action-btn,
+.wp-roadmap-btn-hover:hover .wp-roadmap-status-btn {
+    opacity: 1;
+    visibility: visible
+}
+
+.modal-dialog {
+    margin: 8% auto
+}
+
+.wp-feedback-roadmap .box-content {
+    margin-right: 15px
+}
+
+.wp-roadmap-btn-hover {
+    padding: 10px;
+    margin: 0
+}
+
+.iq-wrap>.dashicons {
+    margin-right: 4px;
+}
+
+/* .wp-roadmap-status-btn {
+    margin: 5px 0
+} */
+
+.dashicons.dashicons-editor-justify {
+    vertical-align: text-bottom !important;
+}
+
+.feedback-button,
+.wp-feedback-roadmap .feedback-button {
+    padding: 0px 20px 5px 20px;
+    line-height: 30px;
+    border-radius: 5px;
+    background: #5945b6;
+    border: 1px solid #5945b6;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 25px;    
+}
+
+.iq-button.wp-feedback-roadmap-update, .iq-button.wp-feedback-roadmap-save, .iq-button.feedback-general-setting-save , .iq-button.wp-feedback-data-save {
+    padding: 7px 20px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.feedback-button:hover,
+.wp-feedback-roadmap .feedback-button:hover {
+    border: 1px solid #5945b6;
+    background: #FFF;
+    color: #5945b6;
+    cursor: pointer !important;
+}
+
+.wp-feedback-roadmap .date {
+    font-size: 12px
+}
+
+.wp-feedback-roadmap .header {
+    height: auto;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid #dfe0e3;
+    margin-bottom: 10px
+}
+
+.wp-feedback-roadmap .header-title {
+    color: #23282d;
+    font-size: 14px;
+    margin: 1em 0;
+    font-weight: 600;
+    padding-left: 10px
+}
+
+.wp-feedback-roadmap .header-button {
+    padding: 5px 8px;
+    font-size: 13px
+}
+
+.iq-settings-wrap .settings-btn{
+    background-color: #5945b6;
+    color: #fff !important;
+    border: unset;
+}
+
+.iq-settings-wrap .settings-btn .dashicons-admin-generic {
+    line-height: 1.2;
+}
+
+.wp-feedback-roadmap .header .settings {
+    text-align: center;
+    border-radius: 5px;
+    color: #687082;
+    border: 1px solid #687082;
+    padding: 5px 20px 7px 20px;
+}
+
+.wp-feedback-roadmap .header .settings:hover {
+    color: #687082;
+    text-decoration: none;
+    border: 1px solid #687082
+}
+
+.wp-feedback-roadmap .track-info {
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    overflow-x: scroll;
+    min-height: 87vh
+}
+
+.wp-feedback-roadmap .content-page .box-header {
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 9px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, .06) 0 0 2px 2px;
+    background: #fff
+}
+
+.wp-feedback-roadmap .content-page .board-title {
+    display: flex;
+    width: calc(100% - 30px);
+    color: #544d61;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.wp-feedback-roadmap .content-page .box-header .header-icon {
+    color: #d3d3d3;
+    cursor: pointer
+}
+
+.wp-feedback-roadmap .content-page .box-header .header-icon span {
+    padding-top: 3px
+}
+
+.wp-feedback-roadmap .content-page .box-info {
+    background: #fff;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    color: #343434;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    -webkit-transition: .3s cubic-bezier(.23, 1, .32, 1);
+    transition: .3s cubic-bezier(.23, 1, .32, 1)
+}
+
+.wp-feedback-roadmap .content-page .box-info.is-moving {
+    background: rgba(0, 0, 0, .8)
+}
+
+.wp-feedback-roadmap .content-page .box-info:hover {
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .2)
+}
+
+.wp-feedback-roadmap p.text {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.wp-feedback-roadmap .box-detail {
+    width: 270px
+}
+
+.wp-feedback-roadmap .box-detail ul {
+    min-height: 0px
+}
+
+.wp-feedback-roadmap .wp-roadmap-logo {
+    width: 70px;
+    padding-right: 10px;
+    padding-left: 10px
+}
+
+.wp-feedback-roadmap .icon {
+    color: #91a2b2
+}
+
+.wp-feedback-roadmap .icon i {
+    font-size: 17px
+}
+
+.wp-feedback-roadmap .board-count {
+    background-color: transparent !important;
+    border: 1px solid #d7dae3;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6px;
+    font-size: 11px;
+    line-height: 1;
+    color: #292d34;
+    height: 20px;
+    font-weight: 700;
+    margin-left: 5px;
+    min-width: 25px
+}
+
+.wp-feedback-roadmap .feedback-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #181719;
+    font-family: Poppins, sans-serif
+}
+
+.wp-feedback-roadmap .feedback-desc {
+    font-size: 13px;
+    color: #747373;
+    line-height: 1.5
+}
+
+.wp-feedback-roadmap .wp-feedback-input {
+    width: 35em !important;
+    max-width: 35em !important;
+    border-radius: 4px;
+    border: 1px solid #7e8993;
+    background-color: #fff;
+    line-height: 2;
+    min-height: 40px
+}
+
+.wp-feedback-roadmap .card {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    max-width: 100%;
+    border: none;
+    margin-top: 0;
+    padding-top: 0
+}
+
+.wp-feedback-roadmap .card .card-header {
+    border-bottom: 1px solid rgba(0, 0, 0, .07);
+    padding: .25rem 1.5rem
+}
+
+.wp-feedback-roadmap .card .inner-status {
+    padding: 20px;
+}
+
+.cursor-move {
+    cursor: move;
+}
+
+.wp-feedback-status-delete {
+    color: #c70000;
+    margin-right: 7px;
+    line-height: 1.4;
+}
+
+.wp-feedback-roadmap a:focus,
+.wp-feedback-roadmap a:hover {
+    box-shadow: none !important;
+    text-decoration: none
+}
+
+#wp_roadmap_feedback_add_form .select {
+    min-height: 100%;
+    max-width: 100%
+}
+
+.wp-roadmap_page_wp_roadmap_feedback_dashboard #wpbody-content {
+    padding-bottom: 0 !important
+}
+
+.wp-feedback-roadmap .add-task {
+    font-size: 13px;
+    color: #5945b6;
+    border: 1px solid #5945b6;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase
+}
+
+.wp-feedback-roadmap .modal-header.display {
+    display: block !important
+}
+
+.gu-transit {
+    opacity: .7 !important
+}
+
+.gu-mirror {
+    cursor: grabbing;
+    opacity: 1;
+    padding: 5px 10px
+}
+
+.gu-hide {
+    display: none !important
+}
+
+.gu-unselectable {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important
+}
+
+/* Default state */
+
+#like, #like.active {
+    display: inline-block !important;
+}
+
+#like {
+    border: none;
+    background-color: white;
+    padding: 0;
+    color: #91a2b2;
+}
+
+#like.active {
+    color: #5945b6;
+}
+
+.inner-space {
+    padding: 10px;
+}
+
+.add-status {
+    font-weight: 700;
+    color: #91a2b2;
+}
+
+.iq-note {
+    color: #c70000;
+    font-weight: 500;
+}
+
+  
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  .line-clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; /* Change this line if you want. In this case it trimmed the text to 3 lines. */
+    overflow: hidden;
+  }
+
+  .iq-dashicons-plus {
+    color: #5945b6;
+  }
+
+  .wp-feedback-data-detail:hover{
+    color: #000;
+  }
+
+  .iq-wp-feedback-data-edit:hover, .iq-dashicons-update:hover{
+    color: #5945b6;
+  }
+
+  .iq-dashicons-trash:hover, .wp-feedback-data-delete:hover{
+    color: #c70000;
+  }
+

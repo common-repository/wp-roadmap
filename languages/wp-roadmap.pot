@@ -1,0 +1,451 @@
+# Copyright (C) 2024 Iqonic Design
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Roadmap - Product Feedback Board 2.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-roadmap\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-19T11:03:01+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: wp-roadmap\n"
+
+#. Plugin Name of the plugin
+#: admin/view/feedback-board.php:25
+#: admin/view/settings.php:8
+msgid "WP Roadmap - Product Feedback Board"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://iqonicthemes.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Show your products, events, in-process developments, concerts, future happenings by using WP Roadmap - Product Feedback Board plugin on your website."
+msgstr ""
+
+#. Author of the plugin
+msgid "Iqonic Design"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://iqonic.design/"
+msgstr ""
+
+#: admin/class-rmpf-admin.php:146
+#: admin/class-rmpf-admin.php:147
+#: public/widget/rmpf-elementor.php:62
+msgid "List of Board"
+msgstr ""
+
+#: admin/view/add-item-model.php:6
+msgid "Board"
+msgstr ""
+
+#: admin/view/add-item-model.php:23
+msgid "Add New Board"
+msgstr ""
+
+#: admin/view/add-item-model.php:31
+msgid "Board Name"
+msgstr ""
+
+#: admin/view/add-item-model.php:32
+msgid "Enter Board Name"
+msgstr ""
+
+#: admin/view/add-item-model.php:37
+msgid "Save"
+msgstr ""
+
+#: admin/view/feedback-board.php:42
+msgid "ADD STATUS"
+msgstr ""
+
+#: admin/view/feedback-board.php:107
+msgid "+ Add New"
+msgstr ""
+
+#: admin/view/feedback-board.php:136
+#: admin/view/settings.php:18
+msgid "Manage Status"
+msgstr ""
+
+#: admin/view/feedback-board.php:137
+#: admin/view/settings.php:19
+msgid "General Settings"
+msgstr ""
+
+#: admin/view/feedback-detail.php:6
+msgid "Feedback Detail"
+msgstr ""
+
+#: admin/view/feedback-detail.php:15
+msgid "Feedback"
+msgstr ""
+
+#: admin/view/feedback-detail.php:19
+#: admin/view/feedback-modal.php:28
+#: admin/view/general-settings.php:37
+#: public/widget/rmpf-elementor.php:502
+#: public/widget/rmpf-elementor.php:930
+#: public/widget/rmpf-elementor.php:1301
+msgid "Description"
+msgstr ""
+
+#: admin/view/feedback-detail.php:23
+#: public/widget/rmpf-elementor.php:565
+msgid "Status"
+msgstr ""
+
+#: admin/view/feedback-detail.php:27
+msgid "Created Date"
+msgstr ""
+
+#: admin/view/feedback-detail.php:31
+msgid "Upvote"
+msgstr ""
+
+#: admin/view/feedback-modal.php:11
+msgid "Add Feedback"
+msgstr ""
+
+#: admin/view/feedback-modal.php:21
+#: admin/view/general-settings.php:25
+#: admin/view/status-settings.php:28
+#: admin/view/status-settings.php:102
+#: public/widget/rmpf-elementor.php:407
+msgid "Title"
+msgstr ""
+
+#: admin/view/feedback-modal.php:35
+msgid "Select Status"
+msgstr ""
+
+#: admin/view/feedback-modal.php:53
+#: admin/view/status-settings.php:47
+#: admin/view/status-settings.php:121
+msgid "Cancel"
+msgstr ""
+
+#: admin/view/feedback-modal.php:56
+#: admin/view/general-settings.php:111
+msgid "Save Changes"
+msgstr ""
+
+#: admin/view/general-settings.php:31
+msgid " Leave empty if you dont want show in the frontend"
+msgstr ""
+
+#: admin/view/general-settings.php:44
+#: admin/view/general-settings.php:69
+msgid "Leave empty if you dont want show in the frontend "
+msgstr ""
+
+#: admin/view/general-settings.php:50
+msgid "Set Active Tab"
+msgstr ""
+
+#: admin/view/general-settings.php:54
+#: public/widget/rmpf-elementor.php:556
+msgid "Road Map"
+msgstr ""
+
+#: admin/view/general-settings.php:55
+#: includes/block-widget.php:28
+#: includes/class-rmpf-widget.php:135
+#: public/widget/rmpf-elementor.php:1132
+msgid "Newest"
+msgstr ""
+
+#: admin/view/general-settings.php:56
+#: public/widget/rmpf-elementor.php:752
+msgid "Most Vote"
+msgstr ""
+
+#: admin/view/general-settings.php:63
+msgid "Suggestion"
+msgstr ""
+
+#: admin/view/general-settings.php:75
+msgid "Request Feature Link"
+msgstr ""
+
+#: admin/view/general-settings.php:81
+msgid "Leave empty if you dont want show in the frontend"
+msgstr ""
+
+#: admin/view/general-settings.php:87
+msgid "Select Pages"
+msgstr ""
+
+#: admin/view/general-settings.php:104
+msgid "Select pages on which you want to use the roadmap"
+msgstr ""
+
+#: admin/view/status-settings.php:8
+msgid "Add Status"
+msgstr ""
+
+#: admin/view/status-settings.php:14
+msgid "+"
+msgstr ""
+
+#: admin/view/status-settings.php:37
+#: admin/view/status-settings.php:112
+msgid "Select Color"
+msgstr ""
+
+#: admin/view/status-settings.php:50
+#: admin/view/status-settings.php:125
+msgid "Save Status"
+msgstr ""
+
+#: includes/block-widget.php:26
+#: includes/class-rmpf-widget.php:129
+msgid "Roadmap"
+msgstr ""
+
+#: includes/block-widget.php:27
+msgid "Most Voted"
+msgstr ""
+
+#: includes/class-rmpf-widget.php:132
+msgid "Most voted"
+msgstr ""
+
+#: includes/class-rmpf-widget.php:142
+msgid "Feature Request"
+msgstr ""
+
+#: includes/class-rmpf-widget.php:186
+msgid "View More"
+msgstr ""
+
+#: public/class-rmpf-public.php:105
+msgid "Wp Roadmap"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:53
+msgid "Board Select"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:75
+#: public/widget/rmpf-elementor.php:83
+msgid "Card"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:91
+#: public/widget/rmpf-elementor.php:180
+#: public/widget/rmpf-elementor.php:246
+#: public/widget/rmpf-elementor.php:313
+#: public/widget/rmpf-elementor.php:362
+#: public/widget/rmpf-elementor.php:1039
+#: public/widget/rmpf-elementor.php:1067
+#: public/widget/rmpf-elementor.php:1386
+#: public/widget/rmpf-elementor.php:1414
+msgid "Background Color"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:104
+msgid "Card Header Padding"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:123
+msgid "View More Typography"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:131
+msgid "View More Color"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:142
+msgid "View More Margin"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:155
+msgid "Header"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:172
+msgid "Tab"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:192
+msgid "Tab List Padding"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:211
+msgid "Tab Content Padding"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:229
+#: public/widget/rmpf-elementor.php:1021
+#: public/widget/rmpf-elementor.php:1368
+msgid "Normal Button"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:234
+#: public/widget/rmpf-elementor.php:301
+#: public/widget/rmpf-elementor.php:1026
+#: public/widget/rmpf-elementor.php:1054
+#: public/widget/rmpf-elementor.php:1373
+#: public/widget/rmpf-elementor.php:1401
+msgid "Color"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:255
+msgid "Tab Button Padding"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:273
+msgid "Tab Button Gap"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:289
+msgid "Typography for tab button"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:296
+#: public/widget/rmpf-elementor.php:1049
+#: public/widget/rmpf-elementor.php:1396
+msgid "Active Button"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:335
+msgid "Request Button"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:343
+#: public/widget/rmpf-elementor.php:416
+#: public/widget/rmpf-elementor.php:511
+#: public/widget/rmpf-elementor.php:574
+#: public/widget/rmpf-elementor.php:645
+#: public/widget/rmpf-elementor.php:706
+#: public/widget/rmpf-elementor.php:770
+#: public/widget/rmpf-elementor.php:869
+#: public/widget/rmpf-elementor.php:939
+#: public/widget/rmpf-elementor.php:1149
+#: public/widget/rmpf-elementor.php:1246
+#: public/widget/rmpf-elementor.php:1310
+msgid "Typography"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:351
+#: public/widget/rmpf-elementor.php:460
+#: public/widget/rmpf-elementor.php:520
+#: public/widget/rmpf-elementor.php:594
+#: public/widget/rmpf-elementor.php:654
+#: public/widget/rmpf-elementor.php:715
+#: public/widget/rmpf-elementor.php:816
+#: public/widget/rmpf-elementor.php:879
+#: public/widget/rmpf-elementor.php:972
+#: public/widget/rmpf-elementor.php:1193
+#: public/widget/rmpf-elementor.php:1256
+#: public/widget/rmpf-elementor.php:1319
+msgid "Font Color"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:372
+#: public/widget/rmpf-elementor.php:482
+#: public/widget/rmpf-elementor.php:542
+#: public/widget/rmpf-elementor.php:616
+#: public/widget/rmpf-elementor.php:676
+#: public/widget/rmpf-elementor.php:737
+#: public/widget/rmpf-elementor.php:840
+#: public/widget/rmpf-elementor.php:909
+#: public/widget/rmpf-elementor.php:994
+#: public/widget/rmpf-elementor.php:1217
+#: public/widget/rmpf-elementor.php:1281
+#: public/widget/rmpf-elementor.php:1341
+msgid "Padding"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:384
+#: public/widget/rmpf-elementor.php:470
+#: public/widget/rmpf-elementor.php:530
+#: public/widget/rmpf-elementor.php:604
+#: public/widget/rmpf-elementor.php:664
+#: public/widget/rmpf-elementor.php:725
+#: public/widget/rmpf-elementor.php:828
+#: public/widget/rmpf-elementor.php:891
+#: public/widget/rmpf-elementor.php:982
+#: public/widget/rmpf-elementor.php:1205
+#: public/widget/rmpf-elementor.php:1268
+#: public/widget/rmpf-elementor.php:1329
+msgid "Margin"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:424
+msgid "Backgroud Color"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:433
+#: public/widget/rmpf-elementor.php:792
+#: public/widget/rmpf-elementor.php:948
+#: public/widget/rmpf-elementor.php:1169
+msgid "Alignment"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:438
+#: public/widget/rmpf-elementor.php:797
+#: public/widget/rmpf-elementor.php:953
+#: public/widget/rmpf-elementor.php:1174
+msgid "Left"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:442
+#: public/widget/rmpf-elementor.php:801
+#: public/widget/rmpf-elementor.php:957
+#: public/widget/rmpf-elementor.php:1178
+msgid "Center"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:446
+#: public/widget/rmpf-elementor.php:805
+#: public/widget/rmpf-elementor.php:961
+#: public/widget/rmpf-elementor.php:1182
+msgid "Right"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:636
+#: public/widget/rmpf-elementor.php:761
+#: public/widget/rmpf-elementor.php:1140
+msgid "Task Title"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:697
+#: public/widget/rmpf-elementor.php:860
+#: public/widget/rmpf-elementor.php:1237
+msgid "Task Id"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:779
+#: public/widget/rmpf-elementor.php:1157
+msgid "List Margin"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:1014
+#: public/widget/rmpf-elementor.php:1361
+msgid "Button Box Shadow"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:1083
+msgid "Vote Button"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:1090
+msgid "Font Size (px)"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:1101
+msgid "Icon Size (px)"
+msgstr ""
+
+#: public/widget/rmpf-elementor.php:1112
+msgid "Vote Button Padding"
+msgstr ""
